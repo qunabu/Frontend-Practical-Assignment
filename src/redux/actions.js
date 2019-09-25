@@ -22,7 +22,7 @@ export function requestCurrenciesError(error) {
   };
 }
 
-export function fetchCurrencies(url = "http://api.nbp.pl/api/exchangerates/tables/a") {
+export function fetchCurrencies(url = "https://api.nbp.pl/api/exchangerates/tables/a") {
   return function(dispatch) {
     dispatch(requestCurrencies());
     let f;

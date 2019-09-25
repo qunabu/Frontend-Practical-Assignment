@@ -18,7 +18,7 @@
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
   },
-  "homepage": "https://qunabu.github.io/react-test",
+  "homepage": "https://qunabu.github.io/Frontend-Practical-Assignment",
   "devDependencies": {
     "@testing-library/jest-dom": "^4.1.0",
     "@testing-library/react": "^9.1.4",
